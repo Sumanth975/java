@@ -1,7 +1,8 @@
-
+import java.util.*;
 public class HelloWorld {
 	public static void main(String args[]){
-		System.out.println("hello world");
+		Hello1 hello=new Hello1();
+		System.out.println(hello.get());
 	}
 
 }
